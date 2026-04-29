@@ -10,8 +10,11 @@ O Java Database Connectivity (JDBC) é uma API que funciona como um "intérprete
 Fontes de Pesquisa:
 
 https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padrao-dao/30999
+
 _ideia principal:_ Explicar o conceito de DAO
 _Detalhe Técnico Útil:_ 
+
+
 https://www.imperva.com/learn/application-security/business-logic/
 https://www.blip.ai/blog/tecnologia/persistencia-de-dados/
 https://www.alura.com.br/artigos/conhecendo-o-jdbc
