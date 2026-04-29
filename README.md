@@ -13,7 +13,7 @@ https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padra
 
 _ideia principal:_ Explicar o conceito de DAO
 
-_Detalhe Técnico Útil:_ 
+_Detalhe Técnico:_ 
 
 
 https://www.imperva.com/learn/application-security/business-logic/
