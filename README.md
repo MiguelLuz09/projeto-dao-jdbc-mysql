@@ -12,6 +12,7 @@ Fontes de Pesquisa:
 https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padrao-dao/30999
 
 _ideia principal:_ Explicar o conceito de DAO
+
 _Detalhe Técnico Útil:_ 
 
 
