@@ -11,6 +11,35 @@ DAO (Data Access Object) é o padrão de projeto que serve para separar Lógica 
 O Java Database Connectivity (JDBC) é uma API que funciona como um "intérprete" entre Java e SGBD (Sistemas de Gerenciamento de Banco de Dados). Explicando melhor: Imagine que java fala Inglês, e Mysql fala Japonês. O JDBC é o Intérprete ou a Ponte que liga essas duas camadas. Este também utiliza outras peças importantes para a comunicação entre esses dois elementos, tal como Driver, DriverManager, PreparedStatement e ResultSet.
 
 # Mapa Conceitual:
+                        [ USUÁRIO ]
+                             |
+                          interage
+                             |
+                          [ VIEW ]
+                        (tela/menu)
+                             |
+                          chama
+                             |
+                       [ CONTROLLER ]
+                      (coordena tudo)
+                      /             \
+                 consulta           atualiza
+                    |                  |
+                [ MODEL ]          [ VIEW ]
+            (dados e regras)    (exibe resposta)
+                    |
+                 acessa via
+                    |
+                 [ DAO ]
+            (PreparedStatement)
+                    |
+                 conecta
+                    |
+            [ ConnectionFactory ]
+                    |
+                 abre
+                    |
+              [ MySQL/Banco ]
 
 
 ## Fontes de Pesquisa:
